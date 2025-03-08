@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/plugins/BcColumn/src" isTestSource="false" packagePrefix="BcColumn\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/BcPluginSample/src" isTestSource="false" packagePrefix="BcPluginSample\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/BcThemeSample/src" isTestSource="false" packagePrefix="BcThemeSample\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/baser-core/src" isTestSource="false" packagePrefix="BaserCore\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/baser-core/src/Routing" isTestSource="false" packagePrefix="Cake\Routing\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/baser-core/tests" isTestSource="true" packagePrefix="BaserCore\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-admin-third/src" isTestSource="false" packagePrefix="BcAdminThird\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-blog/src" isTestSource="false" packagePrefix="BcBlog\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-blog/tests" isTestSource="true" packagePrefix="BcBlog\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-content-link/src" isTestSource="false" packagePrefix="BcContentLink\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-content-link/tests" isTestSource="true" packagePrefix="BcContentLink\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-custom-content/src" isTestSource="false" packagePrefix="BcCustomContent\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-custom-content/tests" isTestSource="true" packagePrefix="BcCustomContent\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-editor-template/src" isTestSource="false" packagePrefix="BcEditorTemplate\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-editor-template/tests" isTestSource="true" packagePrefix="BcEditorTemplate\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-favorite/src" isTestSource="false" packagePrefix="BcFavorite\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-favorite/tests" isTestSource="true" packagePrefix="BcFavorite\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-front/src" isTestSource="false" packagePrefix="BcFront\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-installer/src" isTestSource="false" packagePrefix="BcInstaller\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-installer/tests" isTestSource="true" packagePrefix="BcInstaller\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-mail/src" isTestSource="false" packagePrefix="BcMail\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-mail/tests" isTestSource="true" packagePrefix="BcMail\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-search-index/src" isTestSource="false" packagePrefix="BcSearchIndex\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-search-index/tests" isTestSource="true" packagePrefix="BcSearchIndex\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-theme-config/src" isTestSource="false" packagePrefix="BcThemeConfig\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-theme-config/tests" isTestSource="true" packagePrefix="BcThemeConfig\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-theme-file/src" isTestSource="false" packagePrefix="BcThemeFile\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-theme-file/tests" isTestSource="true" packagePrefix="BcThemeFile\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-uploader/src" isTestSource="false" packagePrefix="BcUploader\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-uploader/tests" isTestSource="true" packagePrefix="BcUploader\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-widget-area/src" isTestSource="false" packagePrefix="BcWidgetArea\" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bc-widget-area/tests" isTestSource="true" packagePrefix="BcWidgetArea\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/baser-core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-admin-third" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-blog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-content-link" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-custom-content" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-editor-template" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-favorite" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-front" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-mail" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-search-index" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-theme-config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-theme-file" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-uploader" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/baserproject/bc-widget-area" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/brick/varexporter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/authentication" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/bake" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/cakephp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/cakephp-codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/chronos" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/debug_kit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/plugin-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/twig-view" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jasny/twig-extensions" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/josegonzalez/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-httphandlerrunner" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/m1/env" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/robmorgan/phinx" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/seld/phar-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/seld/signal-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/slevomat/coding-standard" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symplify/monorepo-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/markdown-extra" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vierge-noire/cakephp-fixture-factories" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vierge-noire/cakephp-test-suite-light" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

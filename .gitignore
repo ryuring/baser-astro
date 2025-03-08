@@ -9,3 +9,16 @@
 !/tmp/tests/.gitkeep
 /vendor/*
 !/vendor/.gitkeep
+/composer/*
+!/composer/.gitkeep
+/webroot/files/*
+!/webroot/files/.gitkeep
+/webroot/baser_core
+/webroot/bc_admin_third
+/webroot/bc_blog
+/webroot/bc_front
+/webroot/bc_mail
+/webroot/bc_theme_sample
+/webroot/bc_uploader
+/.idea/*
+node_modules/*
