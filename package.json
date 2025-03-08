@@ -1,0 +1,21 @@
+{
+  "name": "basercms",
+  "version": "2.0.0",
+  "description": "baserCMS Project",
+  "author": "NPO baser foundation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baserproject/basercms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baserproject/basercms/issues"
+  },
+  "homepage": "https://github.com/baserproject/basercms#readme",
+  "workspaces": [
+    "plugins/bc-admin-third",
+    "plugins/bc-front",
+    "plugins/BcSpaSample"
+  ],
+  "private": true
+}
