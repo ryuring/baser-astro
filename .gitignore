@@ -22,3 +22,5 @@
 /webroot/bc_uploader
 /.idea/*
 node_modules/*
+/config/jwt.key
+/config/jwt.pem
