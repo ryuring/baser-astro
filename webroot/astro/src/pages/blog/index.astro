@@ -3,14 +3,9 @@ import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
-import { getBlogs } from "../../library/microcms";
-const response = await getBlogs({ fields: ["id", "title", "eyecatch", "publishedAt"] });
-
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+import { getBlogs } from "../../library/basercms";
+const posts = await getBlogs();
 ---
 
 <!doctype html>
@@ -93,13 +88,13 @@ const posts = (await getCollection('blog')).sort(
 			<section>
 				<ul>
 					{
-						response.contents.map((post) => (
+						posts.map((post) => (
 							<li>
 								<a href={`/blog/${post.id}/`}>
-									<img width={720} height={360} src={post.eyecatch.url} alt="" />
+									<img width={720} height={360} src={post.eye_catch} alt="" />
 									<h4 class="title">{post.title}</h4>
 									<p class="date">
-										<FormattedDate date={new Date(post.publishedAt)} />
+										<FormattedDate date={new Date(post.posted)} />
 									</p>
 								</a>
 							</li>
