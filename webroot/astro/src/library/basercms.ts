@@ -10,12 +10,12 @@ const formatEyeCatch = (blogPost: BlogPost): BlogPost => ({
     eye_catch: IMAGE_BASE_URL + blogPost.eye_catch
 });
 
-export const getBlogs = async (): Promise<BlogPosts> => {
-    const response = await client.getIndex({ endpoint: "blogs" });
+export const getBlogPosts = async (): Promise<BlogPosts> => {
+    const response = await client.getIndex({ endpoint: "blogPosts" });
     return response?.blogPosts.map(formatEyeCatch) ?? [];
 };
 
-export const getBlogDetail = async (id: string): Promise<BlogPost | null> => {
-    const response = await client.getView({ endpoint: "blogs", id });
+export const getBlogPost = async (id: string): Promise<BlogPost | null> => {
+    const response = await client.getView({ endpoint: "blogPosts", id });
     return response?.blogPost ? formatEyeCatch(response.blogPost) : null;
 };

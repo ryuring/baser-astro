@@ -41,7 +41,7 @@ const axiosInstance = axiosBase.create({
 export class Client {
 
     readonly ROUTE: Record<string, { plugin: string; controller: string }>  = {
-        blogs: {
+        blogPosts: {
             plugin: 'bc-blog',
             controller: 'blog_posts',
         }
