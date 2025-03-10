@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getBlogPosts } from "../../library/basercms";
+import {BlogPost} from "../../library/basercms-js-sdk";
 const posts = await getBlogPosts();
 ---
 
@@ -88,7 +89,7 @@ const posts = await getBlogPosts();
 			<section>
 				<ul>
 					{
-						posts.map((post) => (
+						posts.map((post: BlogPost) => (
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									<img width={720} height={360} src={post.eye_catch} alt="" />

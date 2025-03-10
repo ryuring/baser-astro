@@ -1,11 +1,12 @@
 ---
 import {getBlogPosts, getBlogPost} from "../../library/basercms";
+import {BlogPost} from "../../library/basercms-js-sdk";
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
     const response = await getBlogPosts();
-    return response.map((post: any) => ({
-        params: {id: post.id}
+    return response.map((post: BlogPost) => ({
+        params: { id: String(post.id) }
     }));
 }
 

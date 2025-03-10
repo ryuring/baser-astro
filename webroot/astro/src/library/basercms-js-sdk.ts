@@ -5,6 +5,7 @@ const BASE_URL = 'https://baser-astro.localhost';
 
 interface GetIndexRequest {
     endpoint: string;
+    options?: {};
 }
 
 type GetViewRequest = {
@@ -20,11 +21,7 @@ interface BlogPost {
     posted: string;
 }
 
-interface BlogPosts {
-    blogPosts: BlogPost[];
-}
-
-export type { GetIndexRequest, GetViewRequest, BlogPost, BlogPosts };
+export type { GetIndexRequest, GetViewRequest, BlogPost };
 
 const agent = new https.Agent({ rejectUnauthorized: false });
 
@@ -47,8 +44,9 @@ export class Client {
         }
     };
     
-    async getIndex<T>({ endpoint }: GetIndexRequest) {
-        const url = `/baser/api/${this.ROUTE[endpoint].plugin}/${this.ROUTE[endpoint].controller}/index.json`;
+    async getIndex<T>({ endpoint, options }: GetIndexRequest) {
+        const query = options ? '?' + new URLSearchParams(options).toString() : '';
+        const url = `/baser/api/${this.ROUTE[endpoint].plugin}/${this.ROUTE[endpoint].controller}/index.json${query}`;
         try {
             const response = await axiosInstance.get(url);
             return response.data;
