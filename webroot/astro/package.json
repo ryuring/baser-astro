@@ -15,5 +15,8 @@
     "astro": "^5.4.2",
     "axios": "^1.8.2",
     "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@ryuring/basercms-js-sdk": "^0.0.7"
   }
 }
