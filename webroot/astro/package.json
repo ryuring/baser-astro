@@ -17,6 +17,6 @@
     "typescript": "^5.8.2"
   },
   "devDependencies": {
-    "@ryuring/basercms-js-sdk": "^0.0.8"
+    "@ryuring/basercms-js-sdk": "^0.0.10"
   }
 }
